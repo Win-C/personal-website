@@ -21,6 +21,22 @@
 
 .bi-github::before { content: "\f3cd"; }
 .bi-linkedin::before { content: "\f44f"; }
+.bi-list-check::before { content: "\f450"; }
+.bi-list-nested::before { content: "\f451"; }
+.bi-list-ol::before { content: "\f452"; }
+.bi-list-stars::before { content: "\f453"; }
+.bi-list-task::before { content: "\f454"; }
+.bi-list-ul::before { content: "\f455"; }
+.bi-list::before { content: "\f456"; }
 .bi-pen-fill::before { content: "\f4a0"; }
 .bi-pen::before { content: "\f4a1"; }
 .bi-twitter::before { content: "\f5b7"; }
+.bi-x-circle-fill::before { content: "\f5e6"; }
+.bi-x-circle::before { content: "\f5e7"; }
+.bi-x-diamond-fill::before { content: "\f5e8"; }
+.bi-x-diamond::before { content: "\f5e9"; }
+.bi-x-octagon-fill::before { content: "\f5ea"; }
+.bi-x-octagon::before { content: "\f5eb"; }
+.bi-x-square-fill::before { content: "\f5ec"; }
+.bi-x-square::before { content: "\f5ed"; }
+.bi-x::before { content: "\f5ee"; }
