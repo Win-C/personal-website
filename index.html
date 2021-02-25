@@ -1,108 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Winnie's Personal Site</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600&display=swap" type="text/css">
-    <link rel="stylesheet" href="style.css">
+    <title>Winnie's Website</title>
+    <link 
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous"
+    >
+    <link 
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600&display=swap"
+        type="text/css"
+    >
+    <link 
+        rel="stylesheet"
+        href="style.css"
+    >
 </head>
+
 <body>
-    <!--Navigation Bar-->
-    <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsed-content">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsed-content">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#"> Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"> About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"> Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"> Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"> Contact</a>
-                </li>
-            </ul>
+    <!-- .header -->
+    <header id="header">
+        <div class="container">
+            <h1><a href="index.html">Winnie Chou</a></h1>
+            <h2>I'm a passionate <span>web developer</span> from New York</h2>
         </div>
-    </nav>
-    <!--Landing Page-->
-    <section class="container" id="home">
-        <!--Add background image later-->
-        <p class="lead">
-            Hello, I'm <b>Winnie</b>. I'm a budding full-stack developer.
-        </p>
-    </section>
-    <!--About Page-->
-    <section class="container" id="about">
-        <h2>
-            About
-        </h2>
-        <p>
-            Currently I'm learning programming skills to become a full-stack developer.
-        </p>
-        <p>
-            I am passionate about building. Previously, I spent my career understanding the finance and strategy of business operations for investors, shareholders, and company boards. 
-        </p>
-        <p>
-            Now I’m looking to bridge my learning between investing and building. My goal is to work alongside likeminded, entrepreneurial individuals and roll up my sleeves to build user-friendly and scalable tech solutions to the most pressing business problems that we face today.  
-        </p>
-        <p>
-            Learn more about my professional experience
-            <a href="resume.pdf" width="400" height="500" type="application/pdf">here</a>
-        </p>
-    </section>
-    <!--Portfolio Page-->
-    <section class="container" id="portfolio">
-        <h2>
-            Portfolio
-        </h2>
-    </section>
-    <!--Blog Page-->
-    <section class="container" id="blog">
-        <h2>
-            Blog
-        </h2>
-    </section>
-    <!--Inbound Contact-->
-    <section class="container" id="contact">
-        <h2>Contact</h2>
-        <form>
-            <div class="form-group">
-                <input type="text" class="form-control" id="name" placeholder="Your Name">
-            </div>
-            <div class="form-group">
-                <input type="email" class="form-control" id="email" placeholder="Your email">
-            </div>
-            <div class="form-group">
-                <textarea name="" class="form-control" id="msg" rows="10" placeholder="Your Message"></textarea>
-            </div>
-            <button type="submit" class="btn-dark btn-bg-dark">Submit</button>
-        </form>
-    </section>
-    <!--Social Media-->
-    <section class="container" id="media">
-        <ul>
-            <li><a href="https://www.linkedin.com/in/winniechou"> LinkedIn </a></li>
-            <li><a href="https://github.com/Win-C"> GitHub </a></li>
-        </ul>
-    </section>
+        <!-- .navbar -->
+        <nav id="navbar" class="navbar">
+            <ul>
+                <li><a class="nav-link active" href="#header">Home</a></li>
+                <li><a class="nav-link" href="#about">About</a></li>
+                <li><a class="nav-link" href="#resume">Resume</a></li>
+                <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+
+    <!--.social-links-->
+        <div class="social-links">
+            <a href="https://twitter.com/chou_winnie" class="twitter">
+                <img 
+                    align="center"
+                    class="filter-white"
+                    alt="Winnie's Twitter"
+                    width="20px"
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg"
+                />
+            </a>
+            <a href="https://www.linkedin.com/in/winniechou">
+                <img 
+                    align="center"
+                    class="filter-white"
+                    alt="Winnie's LinkedIn"
+                    width="20px"
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" 
+                />
+            </a>
+            <a href="https://github.com/Win-C">
+                <img 
+                    align="center"
+                    class="filter-white"
+                    alt="Winnie's GitHub"
+                    width="20px"
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" 
+                />
+            </a>
+            <a href="https://medium.com/@winnie.chou.mb">
+                <img 
+                    align="center"
+                    class="filter-white"
+                    alt="Winnie's Medium"
+                    width="20px"
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/medium.svg" 
+                />
+            </a>
+        </div>
+    </header>
     <hr>
+
     <!--Copyright Footer-->
-    <footer class="container sticky-bottom"" id="footer">
-        <span>Winnie Chou Copyright © 2020</span>
+    <footer class="container" id=" footer">
+        <span>Winnie Chou Copyright © 2021</span>
     </footer>
-    <!--Navigation Bar Scripts-->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
 </body>
+
 </html>

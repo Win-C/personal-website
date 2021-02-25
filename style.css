@@ -1,25 +1,34 @@
+/* :before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient( 
+        rgba(0, 0, 0, 0.0) 0%,
+        rgba(0, 0, 0, 0.0) 70%,
+        rgba(0, 0, 0, 0.2) 80%,
+        rgba(0, 0, 0, 0.7) 90%,
+        rgba(0, 0, 0, 0.9) 95%,
+        rgba(255, 0, 0, 1.0) 100%,
+    );
+} */
+
 body {
-    background-color: ; 
+    background: url('./background.jpeg') no-repeat center center fixed;
+    background-size: auto 100%;
+    background-color: black;
     font-family: 'Nunito', sans-serif;
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
-#home{
-    background-color: ;
+
+.filter-white{
+    filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(254deg) brightness(106%) contrast(101%);
 }
-#about {
-    background-color:;
-}
-#portfolio {
-    background-color:;
-}
-#blog {
-    background-color: ;
-}
-#contact {
-    background-color: ;
-}
-#media {
-    background-color: ;
-}
-#footer {
-    background-color:;
+
+.footer {
+    flex-shrink:0;
 }
