@@ -99,11 +99,29 @@ h1, h2, h3, h4, h5, h6 {
   /* font-family: "Poppins", sans-serif; */
 }
 
-#hero p span {
+#header p span {
+  /* Content is not revealed until the animation */
+  /* overflow: hidden; */
+  /* Keeps the content on a single line */
+  /* white-space: nowrap; */
+  /* Gives that scrolling effect as the typing happens */
+  /* margin: 0 auto; */
+  /* Typing Effect Animation */
+  /* animation: typing 5s steps(30, end); */
   color: orangered;
   letter-spacing: 1px;
 }
-  
+
+/* Typing effect on website loading */
+/* @keyframes typing{
+  from {
+    width: 0
+  }
+  to {
+    width: 100%
+  }
+} */
+
 #header .social-links {
     margin-top: 40px;
     display: flex;
