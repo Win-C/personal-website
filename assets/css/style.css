@@ -14,7 +14,7 @@ body {
 body::before {
     content: "";
     position: fixed;
-    background: black url('../img/background.jpeg') top right no-repeat;
+    background: black url('../img/background2.jpeg') center center no-repeat;
     background-size: cover;
     left: 0;
     right: 0;
@@ -344,5 +344,5 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer span {
   font-size: 15px;
-  color: orangered;
+  /* color: orangered; */
 }
