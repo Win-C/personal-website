@@ -16,56 +16,284 @@
         href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600&display=swap"
         type="text/css"
     >
+    <!-- CSS File -->
     <link 
         rel="stylesheet"
-        href="style.css"
+        href="assets/css/style.css"
     >
-    <link href="assets/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link 
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.4.0/font/bootstrap-icons.min.css"
+        integrity="sha512-jNfYp+q76zAGok++m0PjqlsP7xwJSnadvhhsL7gzzfjbXTqqOq+FmEtplSXGVI5uzKq7FrNimWaoc8ubP7PT5w==" 
+        crossorigin="anonymous" />
 </head>
 
 <body>
-    <!-- .header -->
+    <!--------------------------------- .header ------------------------------->
     <header id="header">
         <div class="container">
             <h1><a href="index.html">Winnie Chou</a></h1>
             <h2>I'm a passionate <span>full-stack web developer</span></h2>
-
-        <!-- .navbar -->
-        <nav id="navbar" class="navbar">
-            <ul>
-                <li><a class="nav-link active" href="#header">Home</a></li>
-                <li><a class="nav-link" href="#about">About</a></li>
-                <li><a class="nav-link" href="#resume">Resume</a></li>
-                <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                <li><a class="nav-link" href="#contact">Contact</a></li>
-            </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav>
-
-    <!--.social-links-->
-        <div class="social-links">
-            <a href="https://twitter.com/chou_winnie" class="twitter">
-                <i class="bi bi-twitter"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/winniechou">
-                <i class="bi bi-linkedin"></i>
-            </a>
-            <a href="https://github.com/Win-C">
-                <i class="bi bi-github"></i>
-            </a>
-            <a href="https://medium.com/@winnie.chou.mb">
-                <i class="bi bi-pen"></i>
-            </a>
-        </div>
+            <p>
+                <b>
+                    <span 
+                        class="typed"
+                        data-typed-items="Runner, Programmer, Entrepreneur, Investor, Adventurer, Life-long Learner">
+                    </span>
+                </b>
+            </p>
+            <h3 id="effect"></h3>
+    
+    <!--------------------------------- .navbar ------------------------------->
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li class="nav-item">
+                        <a class="nav-link active scrollto" href="#header">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scrollto" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scrollto" href="#resume">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scrollto" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scrollto" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+    
+    <!--------------------------------- .social-links ------------------------->
+            <div class="social-links">
+                <a href="https://twitter.com/chou_winnie" class="twitter">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/winniechou">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="https://github.com/Win-C">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a href="https://medium.com/@winnie.chou.mb">
+                    <i class="bi bi-pen"></i>
+                </a>
+            </div>
         </div>
     </header>
-    <hr>
-
-    <!--Copyright Footer-->
-    <footer class="container" id=" footer">
-        <span>Winnie Chou Copyright © 2021</span>
-    </footer>
+    <!--------------------------------- end of header ------------------------->
     
+    <!------------------------------------ .about ----------------------------->
+    <section id="about" class="about">
+        <div class="about-me container">
+            <div class="section-title">
+                <h2>About</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4"> <!--- can include data-aos-->
+                    <img src="" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-8 pt-4 pt-lg-0 content">
+                    <h3>Full-Stack Software Developer</h3>
+                    <p>
+                        I'm passionate about building solutions that tackle the toughest problems. I spent my career understanding the finance and strategy of business operations for investors, shareholders, and company boards. I'm looking to bridge my knowledge of investing and building. My goal is to work alongside likeminded, entrepreneurial individuals and build user-friendly, scalable tech solutions to the most pressing issues that we face today. 
+                    </p>
+                    <div class="row">
+                        <div class="col-lg-10">
+                            <ul>
+                                <li>
+                                    <i class="bi bi-chevron-right"></i>
+                                    <strong>Languages: </strong>
+                                    <span>JavaScript, Python, TypeScript, HTML, CSS, Node.js, SQL</span>
+                                </li>
+                                <li>
+                                    <i class="bi bi-chevron-right"></i>
+                                    <strong>Libraries: </strong>
+                                    <span>React, jQuery, FactoryBoy </span>
+                                </li>
+                                <li>
+                                    <i class="bi bi-chevron-right">
+                                    </i>
+                                    <strong>Frameworks: </strong>
+                                    <span>Express.js, Flask, Django, Jest, Jasmine, Bootstrap</span>
+                                </li>
+                                <li>
+                                    <i class="bi bi-chevron-right"></i>
+                                    <strong>Database: </strong>
+                                    <span>PostgreSQL, SQLAlchemy</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------------------------------- end of about -------------------------->
+    
+    <!--------------------------------- .resume ------------------------------->
+    <section id="resume" class="resume">
+
+    </section>
+    <!------------------------------ end of resume ---------------------------->
+
+    <!------------------------------ .portfolio ------------------------------->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+    
+            <div class="section-title">
+                <h2>Portfolio</h2>
+            </div>
+    
+            <div class="row">
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <ul id="portfolio-flters">
+                        <li data-filter="*" class="filter-active">All</li>
+                        <li data-filter=".filter-app">Backend</li>
+                        <li data-filter=".filter-card">Frontend</li>
+                        <li data-filter=".filter-web">Other</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row portfolio-container">
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="portfolio-wrap">
+                      <img 
+                        src="assets/img/portfolio/portfolio-1.jpg"
+                        class="img-fluid"
+                        alt="">
+                    <div class="portfolio-info">
+                        <h4>App 1</h4>
+                        <p>App</p>
+                        <div class="portfolio-links">
+                            <a 
+                                href="assets/img/portfolio/portfolio-1.jpg" 
+                                data-gallery="portfolioGallery"
+                                class="portfolio-lightbox"
+                                title="App 1">
+                                <i class="bx bx-plus"></i>
+                            </a>
+                            <a 
+                                href="portfolio-details.html"
+                                data-gallery="portfolioDetailsGallery"
+                                data-glightbox="type: external"
+                                class="portfolio-details-lightbox"
+                                title="Portfolio Details">
+                                <i class="bx bx-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+    <!------------------------------ end of portfolio ------------------------->
+        
+    <!-------------------------------- .contact ------------------------------->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact</h2>
+            </div>
+
+            <form 
+                action="forms/contact.php"
+                method="post"
+                role="form"
+                class="php-email-form mt-4">
+                <div class="row">
+                    <div class="col-md-6 form-group">
+                        <input 
+                            type="text"
+                            name="name"
+                            class="form-control"
+                            id="name"
+                            placeholder="Your Name"
+                            required>
+                    </div>
+                    <div class="col-md-6 form-group mt-3 mt-md-0">
+                        <input 
+                            type="email"
+                            class="form-control"
+                            name="email"
+                            id="email"
+                            placeholder="Your Email" 
+                            required>
+                    </div>
+                </div>
+                <div class="form-group mt-3">
+                    <input 
+                        type="text"
+                        class="form-control"
+                        name="subject"
+                        id="subject"
+                        placeholder="Subject"
+                        required>
+                </div>
+                <div class="form-group mt-3">
+                    <textarea 
+                        class="form-control"
+                        name="message"
+                        rows="5"
+                        placeholder="Message"
+                        required>
+                    </textarea>
+                </div>
+                <div class="my-3">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div>
+                <div class="text-center">
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!------------------------------ end of contact --------------------------->
+
+    <!--------------------------------- .footer ------------------------------->
+    <footer class="footer">
+        <p>
+            Copyright © 2021 Winnie Chou. All rights reserved.
+        </p>
+    </footer>
+    <!--------------------------------- end of footer ------------------------->
+    
+    <!-------------------------------- scripts -------------------------------->
+    <script 
+        src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"
+        integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg=="
+        crossorigin="anonymous">
+    </script>
+    <script 
+        src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.js"
+        integrity="sha512-HkPTAAm+s4i8XlHc0dmKTmR7gEo5W3mwtgRNqOMkYdWAK/OaS89ZwQ2jIOyVx7ZrtCEDxb245+rMjN/mmOj/DQ=="
+        crossorigin="anonymous">
+    </script>
+    <script 
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous">
+    </script>
+    <script src="assets/js/index.js"></script>
+    <script 
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous">
+    </script>
+    <script 
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+        crossorigin="anonymous">
+    </script>
+
 </body>
 
 </html>
