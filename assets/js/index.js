@@ -1,35 +1,7 @@
 "use strict";
 
-// Best practice is to set img to background image in a div element rather than an img element or
-// add pointer-events: none; to yoru img element - only for later browsers
 
-// More browser compatible jQuery options
-// To prevent dragging image to download
-// $('img').on('dragstart', function(event) { event.preventDefault(); });
-// To disable right click function on image
-// $("body").on("contextmenu", "img", function(e) {
-//   return false;
-// });
-
-// const $navLinks = $('#navbar');
-
-
-// let index = 0;
-// let text = 'Running, Reading, and Traveling';
-// let speed = 50;
-
-// function textEffect(){
-//   if (index < text.length){
-//     document.getElementById("effect")
-//             .innerHTML += text.charAt(index);
-//     index++;
-//     setTimeout(textEffect, speed);
-//   }
-// }
-
-// textEffect();
-
-
+const $navLinks = $('#navbar');
 
 
 // // Set event listener for mobile-nav-toggle
@@ -42,9 +14,7 @@
 //   this.classList.toggle('bi-x');
 // }
 
-(function() {
-  "use strict";
-
+function onStart() {
   /**
    * Easy selector helper function
    */
@@ -92,7 +62,7 @@
   })
 
   /**
-   * Scrool with ofset on links with a class name .scrollto
+   * Scroll with offset on links with a class name .scrollto
    */
   on('click', '#navbar .nav-link', function(e) {
     let section = select(this.hash)
@@ -201,4 +171,7 @@
     });
   }
 
-})()
+};
+
+// Call function on start or loading of the webpage
+onStart();
