@@ -94,12 +94,12 @@
 
             <div class="row">
                 <div class="col-lg-4"> <!--- can include data-aos-->
-                    <img src="" class="img-fluid" alt="">
+                    <img src="assets/img/about.jpeg" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-8 pt-4 pt-lg-0 content">
                     <h3>Full-Stack Software Developer</h3>
                     <p>
-                        I'm passionate about building solutions that tackle the toughest problems. I spent my career understanding the finance and strategy of business operations for investors, shareholders, and company boards. I'm looking to bridge my knowledge of investing and building. My goal is to work alongside likeminded, entrepreneurial individuals and build user-friendly, scalable tech solutions to the most pressing issues that we face today. 
+                        I'm passionate about building solutions that tackle the toughest problems. Previously, I spent my career understanding the finance and strategy of business operations for investors, shareholders, and company boards. Now I'm looking to bridge my knowledge of investing and building. My goal is to work alongside likeminded, entrepreneurial individuals and build user-friendly, scalable tech solutions to the most pressing issues that we face today. 
                     </p>
                     <div class="row">
                         <div class="col-lg-10">
@@ -107,7 +107,7 @@
                                 <li>
                                     <i class="bi bi-chevron-right"></i>
                                     <strong>Languages: </strong>
-                                    <span>JavaScript, Python, TypeScript, HTML, CSS, Node.js, SQL</span>
+                                    <span>JavaScript, Node.js, Python, TypeScript, SQL, HTML, CSS</span>
                                 </li>
                                 <li>
                                     <i class="bi bi-chevron-right"></i>
@@ -122,7 +122,7 @@
                                 </li>
                                 <li>
                                     <i class="bi bi-chevron-right"></i>
-                                    <strong>Database: </strong>
+                                    <strong>Database & ORM: </strong>
                                     <span>PostgreSQL, SQLAlchemy</span>
                                 </li>
                             </ul>
@@ -203,9 +203,10 @@
             </div>
 
             <form 
-                action="forms/contact.php"
-                method="post"
+                name = "contact"
+                method="POST"
                 role="form"
+                data-netlify="true"
                 class="php-email-form mt-4">
                 <div class="row">
                     <div class="col-md-6 form-group">
@@ -229,21 +230,20 @@
                 </div>
                 <div class="form-group mt-3">
                     <input 
-                        type="text"
-                        class="form-control"
-                        name="subject"
-                        id="subject"
-                        placeholder="Subject"
+                        type="text" 
+                        class="form-control" 
+                        name="subject" 
+                        id="subject" 
+                        placeholder="Subject" 
                         required>
                 </div>
                 <div class="form-group mt-3">
                     <textarea 
-                        class="form-control"
-                        name="message"
-                        rows="5"
-                        placeholder="Message"
-                        required>
-                    </textarea>
+                        class="form-control" 
+                        name="message" 
+                        rows="5" 
+                        placeholder="Message" 
+                        required></textarea>
                 </div>
                 <div class="my-3">
                     <div class="loading">Loading</div>
