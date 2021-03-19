@@ -71,12 +71,14 @@ a:hover {
     font-size: 24px;
     margin-top: 20px;
     color: rgba(255, 255, 255, 0.8);
+    mix-blend-mode: exclusion;
 }
 
 #header h2 span {
     color: #fff;
     border-bottom: 2px solid orangered;
     padding-bottom: 6px;
+    mix-blend-mode: exclusion;
 }
 
 #header img {

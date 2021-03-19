@@ -94,12 +94,12 @@
 
             <div class="row">
                 <div class="col-lg-4"> <!--- can include data-aos-->
-                    <img src="assets/img/about.jpeg" class="img-fluid" alt="">
+                    <img src="assets/img/about.jpeg" width="500" height="500" class="img-fluid" alt="headshot">
                 </div>
                 <div class="col-lg-8 pt-4 pt-lg-0 content">
                     <h3>Full-Stack Software Developer</h3>
                     <p>
-                        I'm passionate about building solutions that tackle the toughest problems. Previously, I spent my career understanding the finance and strategy of business operations for investors, shareholders, and company boards. Now I'm looking to bridge my knowledge of investing and building. My goal is to work alongside likeminded, entrepreneurial individuals and build user-friendly, scalable tech solutions to the most pressing issues that we face today. 
+                        Hi I'm Winnie. I'm passionate programmer looking to build solutions that tackle the toughest problems. Previously, I spent my career understanding the finance and strategy of business operations for investors, shareholders, and company boards. Now I'm looking to use this bridge my knowledge of investing and building. My goal is to work alongside likeminded, entrepreneurial individuals and build user-friendly, scalable tech solutions to the most pressing issues that we face today. 
                     </p>
                     <div class="row">
                         <div class="col-lg-10">
@@ -107,23 +107,12 @@
                                 <li>
                                     <i class="bi bi-chevron-right"></i>
                                     <strong>Languages: </strong>
-                                    <span>JavaScript, Node.js, Python, TypeScript, SQL, HTML, CSS</span>
+                                    <span>JavaScript, Python, TypeScript, SQL, HTML, CSS</span>
                                 </li>
                                 <li>
                                     <i class="bi bi-chevron-right"></i>
-                                    <strong>Libraries: </strong>
-                                    <span>React, jQuery, FactoryBoy </span>
-                                </li>
-                                <li>
-                                    <i class="bi bi-chevron-right">
-                                    </i>
-                                    <strong>Frameworks: </strong>
-                                    <span>Express.js, Flask, Django, Jest, Jasmine, Bootstrap</span>
-                                </li>
-                                <li>
-                                    <i class="bi bi-chevron-right"></i>
-                                    <strong>Database & ORM: </strong>
-                                    <span>PostgreSQL, SQLAlchemy</span>
+                                    <strong>Frameworks / Libraries / Tools: </strong>
+                                    <span>React, React Testing Library, Node.js, RESTful APIs, Express.js, Flask, Django, FactoryBoy, JSON Web Token, Jest, unittest, PostgreSQL, SQLAlchemy, AWS S3</span>
                                 </li>
                             </ul>
                         </div>
@@ -162,47 +151,45 @@
             </div>
     
             <div class="row">
-                <div class="col-lg-12 d-flex justify-content-center">
-                    <ul id="portfolio-flters">
-                        <li data-filter="*" class="filter-active">All</li>
-                        <li data-filter=".filter-app">Backend</li>
-                        <li data-filter=".filter-card">Frontend</li>
-                        <li data-filter=".filter-web">Other</li>
+                <div class="col-lg-12">
+                    <ul>
+                        <li>
+                            <strong>Warbler</strong> - <i>a full stack microblogging & networking site</i>
+                            <div>
+                                <a href="https://github.com/Win-C/warbler">
+                                    Fullstack
+                                </a>
+                            </div>
+                            <div>Tech: HTML & CSS | Flask | RESTful API | PostgreSQL</div>
+                        </li>
+                        
+                        <li>
+                            <strong>Jobly</strong> - <i>a full stack mock job board site</i>
+                            <div>
+                                <a href="https://github.com/Win-C/jobly-frontend">
+                                    Frontend
+                                </a> | 
+                                <a href="https://github.com/Win-C/jobly-backend">
+                                    Backend
+                                </a>
+                            </div>
+                            <div>Tech: React | Express | RESTful API | PostgreSQL</div>
+                        </li>
+
+                        <li>
+                            <strong>Sharebnb</strong> - <i>a full stack mock space sharing site</i>
+                            <div>
+                                <a href="https://github.com/Win-C/sharebnb-frontend">
+                                    Frontend
+                                </a> | 
+                                <a href="https://github.com/Win-C/sharebnb-backend">
+                                    Backend
+                                </a>
+                            </div>
+                            <div>Tech: React | Flask | RESTful API | PostgreSQL | AWS S3</div>
+                        </li>
                     </ul>
                 </div>
-            </div>
-
-            <div class="row portfolio-container">
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                      <img 
-                        src="assets/img/portfolio/portfolio-1.jpg"
-                        class="img-fluid"
-                        alt="">
-                    <div class="portfolio-info">
-                        <h4>App 1</h4>
-                        <p>App</p>
-                        <div class="portfolio-links">
-                            <a 
-                                href="assets/img/portfolio/portfolio-1.jpg" 
-                                data-gallery="portfolioGallery"
-                                class="portfolio-lightbox"
-                                title="App 1">
-                                <i class="bx bx-plus"></i>
-                            </a>
-                            <a 
-                                href="portfolio-details.html"
-                                data-gallery="portfolioDetailsGallery"
-                                data-glightbox="type: external"
-                                class="portfolio-details-lightbox"
-                                title="Portfolio Details">
-                                <i class="bx bx-link"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            
             </div>
         </div>
     </section>
@@ -214,58 +201,19 @@
             <div class="section-title">
                 <h2>Contact</h2>
             </div>
-            <!-- Can use Netlify: with form attributes of data-netlify="true" and name = "contact" -->
-            <form 
-                action="forms/contact.php"
-                method="POST"
-                role="form"
-                class="php-email-form mt-4">
-                <div class="row">
-                    <div class="col-md-6 form-group">
-                        <input 
-                            type="text"
-                            name="name"
-                            class="form-control"
-                            id="name"
-                            placeholder="Your Name"
-                            required>
-                    </div>
-                    <div class="col-md-6 form-group mt-3 mt-md-0">
-                        <input 
-                            type="email"
-                            class="form-control"
-                            name="email"
-                            id="email"
-                            placeholder="Your Email" 
-                            required>
-                    </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>
+                        Connect with me here: 
+                        <a href="https://twitter.com/chou_winnie" class="twitter">
+                            <i class="bi bi-twitter"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/winniechou">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                    </p>
                 </div>
-                <div class="form-group mt-3">
-                    <input 
-                        type="text" 
-                        class="form-control" 
-                        name="subject" 
-                        id="subject" 
-                        placeholder="Subject" 
-                        required>
-                </div>
-                <div class="form-group mt-3">
-                    <textarea 
-                        class="form-control" 
-                        name="message" 
-                        rows="5" 
-                        placeholder="Message" 
-                        required></textarea>
-                </div>
-                <div class="my-3">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Your message has been sent. Thank you!</div>
-                </div>
-                <div class="text-center">
-                    <button type="submit">Send Message</button>
-                </div>
-            </form>
+            </div>
         </div>
     </section>
     <!------------------------------ end of contact --------------------------->
